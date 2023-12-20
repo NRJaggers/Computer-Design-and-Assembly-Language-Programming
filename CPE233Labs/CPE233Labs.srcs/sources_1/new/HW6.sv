@@ -1,0 +1,16 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Nathan Jaggers
+// 
+// Create Date: 02/07/2021 09:42:36 PM 
+// Description:  
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module HW6();
+    
+    ControlUnitDecoder  HW6_CUDCDR();
+    ControlUnitFSM      HW6_CUFSM();
+    CPU                 HW6_CPU();
+    
+endmodule
